@@ -27,7 +27,15 @@ $navbar-default-bg: #073b15;
   text-decoration: none;
 }
 
-.jumbotron h1, h2 {
+.jumbotron h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-space: -1px;
+  font-weight: bold;
+}
+
+.jumbotron h2 {
   color: #fff;
   text-align: center;
   margin-bottom: 30px;
@@ -44,11 +52,32 @@ $navbar-default-bg: #073b15;
   text-decoration: none;
 }
 
-.my-footer {
-  background-color: #005000;
-  color: #fff;
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
 }
 
-.footer-copyright {
-  background-color: #073b15;
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+  
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
 }
